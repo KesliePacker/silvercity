@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		
+		<meta charset=utf-8 />
+		
+		<title>Silver City Challenge</title>
+		
+		<link rel=stylesheet href=style.css type=text/css>
+	
+	</head>
+	
+	<body>
+	
+		<h1>Silver City Survey</h1>
+	
+		<form id=payment>
+		
+			<fieldset>
+			
+				<legend>General Information</legend>
+		
+				<ol>
+					
+					<li>
+						<label for=name>Name</label>
+						<input id=name name=name type=text placeholder="First and last name" required autofocus>
+					</li>
+					
+					<li>
+						<label for=zipcode>Zipcode</label>
+						<input id=zipcode name=zipcode type=zipcode placeholder="12345" required>
+					</li>
+					
+					<li>
+						<label for=email>Email</label>
+						<input id=email name=email type=email placeholder="+4350000000" required>
+					</li>
+						
+				</ol>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<legend>Reasons for Visiting</legend>
+				
+				<ol>
+				
+					<li>
+					
+						<fieldset>
+							
+							<legend>Why do you visit Silver City?</legend>
+							
+							<ol>
+								
+								<li>
+									<input id=resident name=cardtype type=radio>
+									<label for=resident>I am a resident of Silver City</label>
+								</li>
+								
+								<li>
+									<input id=work name=cardtype type=radio>
+									<label for=work>I work in Silver City</label>
+								</li>
+								
+								<li>
+									<input id=shop name=cardtype type=radio>
+									<label for=shop>For shopping or business</label>
+								</li>
+                                
+                                <li>
+									<input id=touist name=cardtype type=radio>
+									<label for=tourist>Tourist-Vacation</label>
+								</li>
+                                
+                                <li>
+									<input id=other name=cardtype type=radio>
+									<label for=other>Other</label>
+								</li>
+								
+							</ol>
+                            
+                        <legend>How often do you visit Silver City?</legend>
+							
+							<ol>
+								
+								<li>
+									<input id=live name=cardtype type=radio>
+									<label for=live>I live here</label>
+								</li>
+								
+								<li>
+									<input id=week name=cardtype type=radio>
+									<label for=week>Several times a week</label>
+								</li>
+								
+								<li>
+									<input id=month name=cardtype type=radio>
+									<label for=month>Several times a month</label>
+								</li>
+                                
+                                <li>
+									<input id=year name=cardtype type=radio>
+									<label for=year>Several times a year</label>
+								</li>
+                                
+                                <li>
+									<input id=never name=cardtype type=radio>
+									<label for=never>I never visit Silver City</label>
+								</li>
+								
+							</ol>
+                            
+                            <legend>What would make downtown Silver City more attractive to visit? (check all that apply)</legend>
+							
+							<ol>
+								
+								<li>
+									<input id=restaurants name=cardtype type=checkbox>
+									<label for=restaurants>more restaurants</label>
+								</li>
+								
+								<li>
+									<input id=stores name=cardtype type=checkbox>
+									<label for=stores>more specialty stores</label>
+								</li>
+								
+								<li>
+									<input id=tourist name=cardtype type=checkbox>
+									<label for=tourist>more tourist type shops</label>
+								</li>
+                                
+                                <li>
+									<input id=business name=cardtype type=checkbox>
+									<label for=business>more professional businesses</label>
+								</li>
+                                
+                                <li>
+									<input id=parking name=cardtype type=checkbox>
+									<label for=parking>additional parking</label>
+								</li>
+                                
+								<li>
+									<input id=bus name=cardtype type=checkbox>
+									<label for=bus>bus route from nearby hotels or popular tourist spots</label>
+								</li>
+                                
+                                <li>
+									<input id=facelift name=cardtype type=checkbox>
+									<label for=facelift>give the place a facelift</label>
+								</li>
+                                
+                                <li>
+									<input id=concerts name=cardtype type=checkbox>
+									<label for=concerts>concerts and events held downtown</label>
+								</li>
+                                
+                                <li>
+									<input id=local name=cardtype type=checkbox>
+									<label for=local>fewer tourists, more places for locals</label>
+								</li>
+							</ol>
+							
+						</fieldset>
+						
+					</li>
+				
+				</ol>
+				
+			</fieldset>
+            
+        <fieldset>
+			
+				<legend>Comments</legend>
+				
+				<ol>
+				
+					<li>
+						<label for=comments>Additional Comments or Suggestions</label>
+						<textarea id=comments name=comments rows=15  required></textarea>
+					</li>
+				
+				</ol>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<button type=submit>Submit Suvey</button>
+			
+			</fieldset>
+		
+		</form>
+	
+	</body>
+
+</html>
